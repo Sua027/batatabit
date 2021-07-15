@@ -8,41 +8,41 @@ body{
     font-size: 10px;
 }
 .section_1{
-    width: 3.2rem;
-    height: 3.5rem;
+    width: 32em;
+    height: 35em;
 }
 .margin_sec_1{
-    width: 3.2rem;
-    height: 3.0rem;
+    width: 32em;
+    height: 30em;
     box-sizing: border-box;
-    padding: 0.25rem 0.3rem 0em 0.3rem;
+    padding: 2.5em 3em 0em 3em;
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 }
 .cuadro_text1{
-    width: 2.6rem;
-    height: 2.3rem;
+    width: 26em;
+    height: 23em;
 
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 .logo span{
-    font-size: 0.23rem;
+    font-size: 2.3em;
     color: #F7931A ;
 }
 .margin_sec_1 h1{
-    font-size: 0.24rem;
+    font-size: 2.4em;
     color: white
 }
 .margin_sec_1 p{
-    font-size: 0.13rem;
+    font-size: 1.3em;
     color: #BABABA;
 }
 .botón_conoce{
-    width: 2.2rem;
-    height: 0.45rem;
+    width: 22em;
+    height: 4.5em;
     background-color: #FAF8F7;
-    margin-top: 0.18rem;
+    margin-top: 1.8em;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -53,70 +53,70 @@ body{
 -moz-box-shadow: 0px 14px 22px 0px rgba(142,142,142,0.45);
 }
 .botón_conoce .text_botón_conoce{
-    font-size: 0.13rem;
+    font-size: 1.3em;
     margin-right: 0em;
     text-decoration: none;
     color: #201E1C;
 }
 .flecha_1{
-    width: 0.25rem;
-    margin-right: 0.15rem;
-    margin-left: 0.13rem;
+    width: 2.5em;
+    margin-right: 1.5em;
+    margin-left: 1.3em;
 }
 /*------------section_2----------*/
 .section_2{
-    width: 3.2rem;
-    height: 6.0rem;
+    width: 32em;
+    height: 60em;
     box-sizing: border-box;
 }
 .img_text_sec_2{
-    width: 2.6rem;
-    height: 3.0rem;
+    width: 26em;
+    height: 30em;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 .img_section_2{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 15em;
+    height: 15em;
 }
 .h1_section_2{
-    font-size: 0.24rem;
+    font-size: 2.4em;
     color:  #282623;
 }
 .text_section_2{
-    font-size: 0.13rem;
+    font-size: 1.3em;
     color: #BABABA;
 }
 
 /*------------section_3----------*/
 .section_3{
-    width: 3.2rem;
-    height: 8.0rem;
+    width: 32em;
+    height: 80em;
     background-color: #201E1C;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding:  0.5rem 0.2rem 0.5rem 0.2rem;
+    padding:  5em 2em 5em 2em;
     box-sizing: border-box;
 }
 .h1_section_3{
-    font-size: 0.24rem;
+    font-size: 2.4em;
     text-align: center;
     color: white;
 }
 .p_section_3{
-    font-size: 0.13rem;
+    font-size: 1.3em;
     text-align: center;
-    margin:  0.1rem 0rem 0.2rem 0rem;
+    margin:  1em 0em 2em 0em;
     color: #BABABA;
 }
 .cajas{
-    width: 2.8rem;
-    height: 1.25rem;
+    width: 28em;
+    height: 12.5em;
     background-color: #282623;
     text-align:left;
-    padding:  0.15rem 0.25rem;
+    padding:  1.5em 2.5em;
     box-sizing: border-box;
     border-radius: 8px;
     box-shadow: -1px 2px 23px -2px rgba(0,0,0,0.45);
@@ -124,28 +124,28 @@ body{
     -moz-box-shadow: -1px 2px 23px -2px rgba(0,0,0,0.45);
 }
 .sub_cajas{
-    margin: 0rem 0rem 0.02rem 0rem;
+    margin: 0em 0em 0.2em 0em;
     color: #fff;
 }
 .text_cajas{
-    font-size:  0.13rem;
+    font-size:  1.3em;
     color: #BABABA;
 }
 .img_cajas{
-    width: 0.18rem;
+    width: 1.8em;
 }
 
 /*------------section_3----------*/
 .section_4{
-    width: 3.2rem;
-    height: 3.8rem;
+    width: 32em;
+    height: 38em;
     background-image: url(../img/bitcoinbaby%201.png);
     background-size: cover;
-    padding-top: 0.2rem;
+    padding-top: 2em;
     box-sizing: border-box;
 }
 .text_section_4{
     text-align: center;
-    font-size: 0.24rem;
+    font-size: 2.4em;
     color: white;
 }
