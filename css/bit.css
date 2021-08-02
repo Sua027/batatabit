@@ -4,24 +4,30 @@
     margin: auto;
     font-family: 'DM Sans', sans-serif;
 }
-body{
+.body{
     font-size: 10px;
+     background-color: #FAF8F7;
+}
+.todo{
+    width: 32em; /*32*/
+    height: auto;
+    background-color: #FAF8F7;
 }
 .section_1{
-    width: 32em;
-    height: 35em;
+    width: 100%;
+    height: 34em;
+    background-color: #FAF8F7;
 }
 .margin_sec_1{
-    width: 32em;
+    width: 100%;
     height: 30em;
     box-sizing: border-box;
     padding: 2.5em 3em 0em 3em;
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 }
 .cuadro_text1{
-    width: 26em;
-    height: 23em;
-
+    width: 100%;/*cambié*/
+    height: 85%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -36,7 +42,7 @@ body{
 }
 .margin_sec_1 p{
     font-size: 1.3em;
-    color: #BABABA;
+    color: #FAF8F7;
 }
 .botón_conoce{
     width: 22em;
@@ -48,9 +54,9 @@ body{
     justify-content: center;
     flex-direction: row;
     border-radius: 8px;
-    box-shadow: 0px 14px 22px 0px rgba(142,142,142,0.45);
--webkit-box-shadow: 0px 14px 22px 0px rgba(142,142,142,0.45);
--moz-box-shadow: 0px 14px 22px 0px rgba(142,142,142,0.45);
+    box-shadow: 1px 4px 14px -2px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 1px 4px 14px -2px rgba(0,0,0,0.43);
+    -moz-box-shadow: 1px 4px 14px -2px rgba(0,0,0,0.43);
 }
 .botón_conoce .text_botón_conoce{
     font-size: 1.3em;
@@ -65,16 +71,17 @@ body{
 }
 /*------------section_2----------*/
 .section_2{
-    width: 32em;
-    height: 60em;
-    box-sizing: border-box;
+    background-color: #FAF8F7;
 }
 .img_text_sec_2{
-    width: 26em;
-    height: 30em;
+    width: 85%;
+    height: 35em;
+    padding: 2em 0em;
     display: flex;
     flex-direction: column;
     text-align: center;
+    box-sizing: border-box;
+    background-color: #FAF8F7;
 }
 .img_section_2{
     width: 15em;
@@ -88,10 +95,89 @@ body{
     font-size: 1.3em;
     color: #BABABA;
 }
-
+/*------------sec2_carrusel----------*/
+.options{
+    width: 100%;
+    height:auto;
+    background-color: #FAF8F7;
+    box-sizing: border-box;
+}
+.caja-opciones{
+    width: 70%;
+    height: 30em;
+    background-color: #FAF8F7;
+}
+.titulo_moneda{
+    text-align: left;
+    color: #F7931A;
+    font-size: 2em;
+    margin-left: 0.5em;
+}
+.titulo_moneda_2{
+    text-align: left;
+    color: #1A9AF7;
+    font-size: 2em;
+    margin-left: 0.5em;
+}
+.tabla-boton{
+   background-color: #FAF8F7;
+    width: 100%;
+    height: auto;
+}
+.tabla-boton{
+   background-color: #FAF8F7;
+    width: 100%;
+    height: auto;
+}
+table.colapsado {
+    border-collapse: collapse;
+    border: #FAF8F7;
+    text-align: center;
+    width: 100%;
+    line-height: 4em;
+    background-color: #Fff;
+    margin: 2em 0em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-sizing: border-box;
+}
+.td1{
+    color: #BABABA;
+}
+.td2{
+     color: #282623;
+}
+.botón_sec2{
+    width: 20em;
+    height: 3em;
+    background-color:  #FFE9D5;
+    padding: 5.2px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    
+}
+.botón_sec2_2{
+    width: 20em;
+    height: 3em;
+    background-color:  #E7F5FF;
+    padding: 5.2px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    
+}
+.text_boton_tabla{
+    font-size: 1.4em;
+    text-align: center;
+}
+.flecha-r-v{
+    width: 1.2em;
+    height: 0.7em;
+}
 /*------------section_3----------*/
 .section_3{
-    width: 32em;
+    width: 100%; /*32em - 64%*/
     height: 80em;
     background-color: #201E1C;
     display: flex;
@@ -108,11 +194,19 @@ body{
 .p_section_3{
     font-size: 1.3em;
     text-align: center;
-    margin:  1em 0em 2em 0em;
+    margin:  1em 0em 1em 0em;
     color: #BABABA;
 }
+.caja_cajas{
+    width: 100%;
+    height: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
 .cajas{
-    width: 28em;
+    width:  100%;/*28em - 84.1%*/
     height: 12.5em;
     background-color: #282623;
     text-align:left;
@@ -122,6 +216,7 @@ body{
     box-shadow: -1px 2px 23px -2px rgba(0,0,0,0.45);
     -webkit-box-shadow: -1px 2px 23px -2px rgba(0,0,0,0.45);
     -moz-box-shadow: -1px 2px 23px -2px rgba(0,0,0,0.45);
+    
 }
 .sub_cajas{
     margin: 0em 0em 0.2em 0em;
@@ -135,10 +230,10 @@ body{
     width: 1.8em;
 }
 
-/*------------section_3----------*/
+/*------------section_4_foto----------*/
 .section_4{
-    width: 32em;
-    height: 38em;
+    width: 100%;
+    height: 100%;
     background-image: url(../img/bitcoinbaby%201.png);
     background-size: cover;
     padding-top: 2em;
@@ -148,4 +243,349 @@ body{
     text-align: center;
     font-size: 2.4em;
     color: white;
+}
+/*------------section_5--------------*/
+.section_5{
+    background-color: #FAF8F7;
+}
+.caja-sec-5{
+    width: 90%;
+    height: auto;
+    padding: 2em 0em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #FAF8F7;
+}
+.h1_sec5{
+    font-size: 2.4em;
+    color:  #282623;
+    margin-top: 1em;
+}
+.text_sec5{
+    font-size: 1.3em;
+    color: #BABABA;
+    margin: 2em 0em;
+}
+
+.caja_de_cajas{
+    width: 100%;
+    height: 35em;
+    background-color: #FAF8F7;
+}
+.caja-caja-arriba{
+    width: 13em;
+    height: 4em;
+    background-color: #f7931a;
+    padding: 1em;
+    border-radius: 11px;
+    box-sizing: border-box;
+}
+.caja_arriba{
+    width: 55%;
+    height: 4em;
+    background-color: transparent;
+    position: absolute;
+}
+.caja_arriba p{
+    font-size: 1.5em;
+    text-align: center;
+    color: white
+}
+.caja_1{
+    width: 100%;
+    height: 30em;
+   background-color: #FAF8F7;
+    box-sizing: border-box;
+}
+.caja_grande{
+    width: 22em;
+    height: 29em;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 2em;
+    padding: 3em 2em;
+    border-radius: 8px;
+    box-shadow: 0px 0px 14px -2px rgba(0,0,0,0.83);
+    -webkit-box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.30);
+    -moz-box-shadow: 1px 4px 14px -2px rgba(0,0,0,0.43);
+}
+.text-pago{
+    font-size: 1.5em;
+    color:  #282623;
+}
+.cash{
+    font-size: 1.5em;
+    color:  #282623;
+}
+.cifra{
+    font-size: 3.5em;
+    color:  #282623;
+}
+.text_plan{
+    font-size: 1.3em;
+    color:  #BABABA;
+}
+.boton_plan{
+    width: 15em;
+    height: 6em;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 1.3em;
+    margin-top: 1.5em;
+    border-radius: 6px;
+    border: solid 3px #f7931a;
+}
+.escoge{
+    font-size: 1.5em;
+       color: #282623;
+}
+.flecha-plan{
+    width: 2em;
+    height: 1.3em;
+}
+/*------------sec_footer-----------*/
+.footer{
+    width: 100%;
+    height: 25em;
+    display: flex;
+    justify-content: center;
+    background-color: #f7931a
+}
+.text_footer{
+    font-size: 1.3em;
+    color: white;
+}
+.img_footer{
+    font-size: 1em;
+    color: white;
+}
+
+/*----------------------------------------------------------estilos_movil-------------------*/
+
+@media screen and (min-width: 500px){
+.todo{
+    width: 100%; /*32*/
+    height: auto;
+    max-width: 120em;
+}
+/*------------sec1-----*/
+.section_1{
+    width: 100%;
+    height: 45em;
+}
+.margin_sec_1{
+    width: 100%;
+    height: 40em;
+}
+.cuadro_text1{
+    width: 80%;
+    height: 30em;
+    padding-top: 3em;
+}
+.logo span{
+    font-size: 3em;
+    color: #F7931A ;
+}
+.margin_sec_1 h1{
+    font-size: 3em;
+    margin: 0;
+}
+.margin_sec_1 p{
+    font-size: 1.5em;
+    margin-bottom: 5em;
+}
+.botón_conoce{
+    width: 25em;
+    height: 5em;
+    background-color: #FAF8F7;
+    margin-top: 1.8em;
+}
+.botón_conoce .text_botón_conoce{
+    font-size: 1.5em;
+}
+.flecha_1{
+    width: 3em;
+    margin-right: 1.3em;
+    margin-left: 1.3em;
+}
+/*----------------sec2------*/
+    .section_2{
+    width: 100%;
+    height: 60em;
+    box-sizing: border-box;
+    background-color: #FAF8F7;
+        padding-top: 2em;
+}
+.img_text_sec_2{
+    width: 70%;
+    height: 45em;
+    background-color: #FAF8F7;
+    padding: 0em 5%;
+    box-sizing: border-box;
+}
+.img_section_2{
+    width: 30em;
+    height: 30em;
+}
+.h1_section_2{
+    font-size: 3em;
+}
+.text_section_2{
+   font-size: 1.8em;
+}
+/*----------------sec3------*/
+    .options{
+    width: 100%;
+    height:auto;
+    background-color: #FAF8F7;
+    box-sizing: border-box;
+}
+.caja-opciones{
+    width: 70%;
+    height: 50em;
+    background-color: #FAF8F7;
+}
+.titulo_moneda{
+    font-size: 3em;
+}
+.titulo_moneda_2{
+    font-size: 3em;
+}
+table.colapsado {
+    line-height: 7em;
+    margin: 3em 0em;
+}
+.td1{
+    color: #BABABA;
+    font-size: 1.8em;
+}
+.td2{
+    color: #282623;
+    font-size: 1.8em;
+}
+.botón_sec2{
+    width: 30em;
+    height: 5em;
+    padding: 14px;
+}
+.botón_sec2_2{
+    width: 30em;
+    height: 5em;
+    padding: 14px;    
+}
+.text_boton_tabla{
+    font-size: 1.8em;
+}
+/*----------------sec3------*/
+.section_3{
+    width: 100%; /*32em - 64%*/
+    height: 80em;
+}
+.h1_section_3{
+    font-size: 3em;
+}
+.p_section_3{
+    font-size: 1.8em;
+}
+.caja_cajas{
+    width: 75%;
+    height: 100%;
+}
+.cajas{
+    width: 100%;/*28em - 84.1%*/
+    height: 13em;
+}
+.sub_cajas{
+    margin: 0em 0em 0.2em 0em;
+    color: #fff;
+}
+.text_cajas{
+    font-size:  1.5em;
+}
+.img_cajas{
+    width: 2.3em;
+}
+/*----------------sec4_foto------*/
+.section_4{
+    width: 60%;
+    height: 90em;
+    background-position: 0em -2em;
+    background-repeat: no-repeat;
+}
+.text_section_4{
+    text-align: center;
+    font-size: 3.6em;
+
+}
+/*---------------sec5_Plan-----------*/
+.h1_sec5{
+    font-size: 3em;
+}
+.text_sec5{
+    font-size: 1.8em;
+}
+.caja_de_cajas{
+    width: 50%;
+    height: 40em;
+}
+.caja-caja-arriba{
+    width: 60%;
+    height: 4.5em;
+    padding: 1em;
+}
+.caja_arriba{
+    width: 45%;
+    height: 4em;
+}
+.caja_arriba p{
+    font-size: 1.5em;
+    text-align: center;
+    color: white
+}
+.caja_1{
+    width: 100%;
+    height: 30em;
+}
+.caja_grande{
+    width: 30em;
+    height: 35em;
+}
+.text-pago{
+    font-size: 2em;
+}
+.cifra{
+    font-size: 6em;
+    color:  #282623;
+}
+.text_plan{
+    font-size: 1.6em;
+}
+.boton_plan{
+    width: 20em;
+    height: 8em;
+    padding: 1.3em;
+    margin-top: 1.5em;
+}
+.escoge{
+    font-size: 1.5em;
+}
+.flecha-plan{
+    width: 2em;
+    height: 1.3em;
+}
+/*------------sec_footer-----------*/
+
+.text_footer{
+    font-size: 1.8em;
+    color: white;
+}
+.img_footer{
+    font-size: 1.2em;
+    color: white;
+}
 }
