@@ -8,4 +8,12 @@
 <li>Objetivos</li>
 <li>Proyecto<ul><li>versión móvil</li><li>versión tablet</li><li>versión pc</li></ul></li>
 
-# Objetivos
+# OBJETIVOS
+ <p>Tengo que organizar más mi tiempo y poner más atención en la clase</p>
+<p>Quiero poner en práctica todo o que e visto en los bimestres pasados y nutrirme de más conocimiento sobre los temas como la programación y el diseño de páginas web</p>
+<p>Me gustaría poner todo mi conocimiento al crear mi portafolio de este bimestre</p>
+
+#  PROYECTO
+<h2>Página web Batatabit</h2>
+<p>Este proyecto se realizó con el objetivo de crear en código el diseño de la página web de la empresa Batatabit. La página es responsive, lo que qiere decri que es adaptable paar distints tamaños de dispositivos. </p>
+<h3>Diseño móvil</h3>
