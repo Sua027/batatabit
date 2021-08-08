@@ -22,3 +22,14 @@
 ![sua027 github io_batatabit_ (1)](https://user-images.githubusercontent.com/69052137/128617039-a94512b0-d965-4a8d-9b0c-e99a852ffabb.png)
 <h3>Diseño laptop</h3>
 ![sua027 github io_batatabit_ (2)](https://user-images.githubusercontent.com/69052137/128618740-3ab1aa54-cbeb-4bda-afcb-a36b7dcb81b7.png)
+
+# METAS A FUTURO
+<h3>Organización</h3>
+<p>Realizar un horario para tener u orden de todas las actividades que tengo que hacer en el día y poder hacer todas la tareas a tiempo</p>
+<h3>Investigación</h3>
+<p>Seguir leyendo e investigando saber los temas visto, no sólo los temas de este periodo sino los tema de los bimestres pasados, También ponerlos en practica.
+</p>
+<h3>Propósito</h3>
+<p>Mejorar en la realización de mi actividades para poder estar al día en todas las tareas que tendré que entregar, pero sobre todo poner atención e involucrarme más en lo que estoy haciendo.
+</p>
+
