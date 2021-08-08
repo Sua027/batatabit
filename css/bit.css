@@ -9,7 +9,7 @@
      background-color: #FAF8F7;
 }
 .todo{
-    width: 32em; /*32*/
+    width: 100%; /*32*/
     height: auto;
     background-color: #FAF8F7;
 }
@@ -233,7 +233,7 @@ table.colapsado {
 /*------------section_4_foto----------*/
 .section_4{
     width: 100%;
-    height: 100%;
+    height: 60em;
     background-image: url(../img/bitcoinbaby%201.png);
     background-size: cover;
     padding-top: 2em;
@@ -257,11 +257,12 @@ table.colapsado {
     text-align: center;
     box-sizing: border-box;
     background-color: #FAF8F7;
+    margin-bottom: 20em;
 }
 .h1_sec5{
     font-size: 2.4em;
     color:  #282623;
-    margin-top: 1em;
+    margin-top: 2em;
 }
 .text_sec5{
     font-size: 1.3em;
@@ -271,22 +272,22 @@ table.colapsado {
 
 .caja_de_cajas{
     width: 100%;
-    height: 35em;
+    height: 40em;
     background-color: #FAF8F7;
+    margin-bottom: 5em;
 }
 .caja-caja-arriba{
-    width: 13em;
-    height: 4em;
+    width: 15em;
+    height: 5em;
     background-color: #f7931a;
     padding: 1em;
     border-radius: 11px;
     box-sizing: border-box;
 }
 .caja_arriba{
-    width: 55%;
-    height: 4em;
+    width: 15em;
+    height: 6em;
     background-color: transparent;
-    position: absolute;
 }
 .caja_arriba p{
     font-size: 1.5em;
@@ -298,6 +299,8 @@ table.colapsado {
     height: 30em;
    background-color: #FAF8F7;
     box-sizing: border-box;
+    display:flex;
+    flex-direction: 
 }
 .caja_grande{
     width: 22em;
@@ -354,7 +357,7 @@ table.colapsado {
     height: 25em;
     display: flex;
     justify-content: center;
-    background-color: #f7931a
+    background-color: #f7931a;
 }
 .text_footer{
     font-size: 1.3em;
@@ -365,7 +368,7 @@ table.colapsado {
     color: white;
 }
 
-/*----------------------------------------------------------estilos_movil-------------------*/
+/*-------------------------------------------estilos_tablet---------*/
 
 @media screen and (min-width: 500px){
 .todo{
@@ -512,7 +515,7 @@ table.colapsado {
 }
 /*----------------sec4_foto------*/
 .section_4{
-    width: 60%;
+    width: 80%;
     height: 90em;
     background-position: 0em -2em;
     background-repeat: no-repeat;
@@ -534,13 +537,9 @@ table.colapsado {
     height: 40em;
 }
 .caja-caja-arriba{
-    width: 60%;
+    width: 15em;
     height: 4.5em;
     padding: 1em;
-}
-.caja_arriba{
-    width: 45%;
-    height: 4em;
 }
 .caja_arriba p{
     font-size: 1.5em;
@@ -589,3 +588,5 @@ table.colapsado {
     color: white;
 }
 }
+
+
