@@ -17,3 +17,4 @@
 <h2>Página web Batatabit</h2>
 <p>Este proyecto se realizó con el objetivo de crear en código el diseño de la página web de la empresa Batatabit. La página es responsive, lo que qiere decri que es adaptable paar distints tamaños de dispositivos. </p>
 <h3>Diseño móvil</h3>
+![sua027 github io_batatabit_](https://user-images.githubusercontent.com/69052137/128616462-7689aa85-182e-4808-8a27-f045b5ee141d.png)
